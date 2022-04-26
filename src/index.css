@@ -11,3 +11,78 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  padding: 0;
+  margin: 0;
+}
+.header{
+  width: 100%;
+  height: auto;
+  background-color: rgb(225, 163, 81);
+  display: flex;
+  justify-content: space-between;
+}
+.sub{
+  padding-bottom: 30px;
+  padding-top: 30px;
+  
+}
+h1{
+  color: black;
+}
+.body{
+  padding-top: 70px;
+}
+.nav-link{
+  display: inline;
+}
+/* <Route
+path="/21MAT21"
+element={
+  <Notes
+    title=""
+ 
+    name1=" "
+    name2=""
+    name3=""
+    name4=""
+    name5=""
+    link1=""
+    link2=""
+    link3=""
+    link4=""
+    link5=""
+  />
+}
+/> */
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:fit-content;
+  height: auto;
+  margin-top: 100px;
+  box-shadow: 2px 2px 10px 4px blue;
+}
+.log{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navb{
+  padding-top: 70px;
+}
+.text{
+  color: white;
+  text-shadow: 1px 1px 2px black,0 0 25px blue,0 0 5px darkblue;
+}
+.img{
+  display: flex;
+  padding-top: 200px;
+  align-items: center;
+  justify-content: center;
+}
+.imga{
+  width:40vw;
+  height: 50vh;
+}
