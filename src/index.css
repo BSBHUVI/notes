@@ -139,5 +139,6 @@ element={
    padding-top: 120px;
  }
  .imgg{
-   width: 100%;
+   width: fit-content;
+   height: fit-content;
  }
