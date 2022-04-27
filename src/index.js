@@ -5166,7 +5166,7 @@ justify-content:flex-end;
 function Logo(){
   return (
     <div className="img">
-    <img className='imga' src="https://getmyuni.azureedge.net/college-image/small/sri-sairam-college-of-engineering-bangalore.jpg" alt="not found" />
+    <img className='imga' src="https://www.admissionmantra.in/wp-content/uploads/2020/04/Sri-sairam-College-of-engineering.png" alt="not found" />
     </div>
   )
 }
