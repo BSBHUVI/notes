@@ -3579,10 +3579,18 @@ return (
         <CustomClose onClick={()=>setburgerStatus(false)}/> 
 
          </CloseWrapper>
-        <Link to="/notes/cse" className='sub'><h5>Computer science and Engineering</h5></Link><hr />
-        <Link to="/notes/ece" className='sub'><h5>Electronics and Comunication Engineering</h5></Link><hr />
-        <Link to="/notes/eee" className='sub'><h5>Electrical and Electronics Engineering</h5></Link><hr />
-        <Link to="/notes/mec" className='sub'><h5>Mechanical Engineering</h5></Link><hr />
+        <Link to="/notes/cse" className='sub'><button className='ui'> COMPUTER SCIENCE AND ENGINEERING
+  
+</button></Link><hr />
+        <Link to="/notes/ece" className='sub'><button className='ui'> ELECTRONICS AND COMMUNICATION ENGINEERING
+  
+</button></Link><hr />
+        <Link to="/notes/eee" className='sub'><button className='ui'> ELECTRICAL AND ELECTRONICS ENGINEERGING
+  
+</button></Link><hr />
+        <Link to="/notes/mec" className='sub'><button className='ui'> MECHANICAL ENGINEERING
+  
+</button></Link><hr />
         
        
         
