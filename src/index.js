@@ -5165,9 +5165,15 @@ justify-content:flex-end;
 
 function Logo(){
   return (
-    <div className="img">
-    <img className='imga' src="https://www.admissionmantra.in/wp-content/uploads/2020/04/Sri-sairam-College-of-engineering.png" alt="not found" />
-    </div>
+   <div className="log">
+   
+<div class="card">
+<div className="im">
+  <img className='imgg' src="https://www.admissionmantra.in/wp-content/uploads/2020/04/Sri-sairam-College-of-engineering.png" alt="" />
+
+</div>
+</div>
+</div>
   )
 }
 

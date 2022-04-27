@@ -76,16 +76,22 @@ element={
   color: white;
   text-shadow: 1px 1px 2px black,0 0 25px blue,0 0 5px darkblue;
 }
-.img{
-  display: flex;
-  padding-top: 200px;
-  align-items: center;
-  justify-content: center;
-}
-.imga{
-  width:80vw;
-  height: 50vh;
-}
+/* From uiverse.io by @fanishah */
+.card {
+  width: 60rem;
+  height: 29rem;
+  background-color: #212121;
+  border-radius: 1rem;
+  border: #212121 0.2rem solid;
+  transition: all 0.4s ease-in;
+  box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
+ }
+ 
+ .card:hover {
+  transform: translateY(-1.5rem);
+  border: #f2295bf0 0.2em solid;
+  border-radius: 2.5rem 0 2.5rem 0;
+ }
 /* From uiverse.io by @adamgiebl */
 /* From uiverse.io by @alexroumi */
 .ui {
@@ -125,4 +131,13 @@ element={
  
  .ui:hover::before {
   width: 100%;
+ }
+ .log{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 200px;
+ }
+ .imgg{
+   width: 100%;
  }
