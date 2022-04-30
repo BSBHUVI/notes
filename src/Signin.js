@@ -1,6 +1,6 @@
 import React from 'react'
 import './Signin.css'
-
+import {app} from './Firebase'
 import { useState } from 'react';
 import { getAuth,signInWithEmailAndPassword} from "firebase/auth";
 
@@ -20,7 +20,7 @@ function Signin() {
     
     console.log(response.user);
     
-    window.location.href="/notes/notes";
+    window.location.href="/notes";
     
     
   })
