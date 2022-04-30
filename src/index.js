@@ -28,16 +28,16 @@ root.render(
   <Router>
  
 <Routes>
-  <Route path='/' element={<Lr/>}/>
+  <Route path='/notes' element={<Lr/>}/>
 </Routes>
  <Routes>
  
- <Route path="/notes" element={<Header />} >
+ <Route path="/notes/notes" element={<Header />} >
  
- <Route path='/notes' element={<Logo/>}/>
- <Route path='/notes/mec' element={<Navbar4/>}>
+ <Route path='/notes/notes' element={<Logo/>}/>
+ <Route path='/notes/notes/mec' element={<Navbar4/>}>
  <Route
-          path="/notes/mec/21Mat11"
+          path="/notes/notes/mec/21Mat11"
           element={
             <Notes
               title="CALCULUS AND DIFFERENTIAL EQUATIONS"
@@ -56,7 +56,7 @@ root.render(
           }
         />
         <Route
-path="/notes/mec/21CHE12"
+path="/notes/notes/mec/21CHE12"
 element={
   <Notes
     title=""
@@ -75,7 +75,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/21CPS13"
+path="/notes/notes/mec/21CPS13"
 element={
   <Notes
     title=""
@@ -94,7 +94,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/21ELN14"
+path="/notes/notes/mec/21ELN14"
 element={
   <Notes
     title=""
@@ -113,7 +113,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/21ME15"
+path="/notes/notes/mec/21ME15"
 element={
   <Notes
     title=""
@@ -132,7 +132,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/21Mat21"
+path="/notes/notes/mec/21Mat21"
 element={
   <Notes
     title=""
@@ -151,7 +151,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/21PHY12"
+path="/notes/notes/mec/21PHY12"
 element={
   <Notes
     title=""
@@ -170,7 +170,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/21ELE13"
+path="/notes/notes/mec/21ELE13"
 element={
   <Notes
     title=""
@@ -189,7 +189,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/21CIV14"
+path="/notes/notes/mec/21CIV14"
 element={
   <Notes
     title=""
@@ -208,7 +208,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/21EGDL25"
+path="/notes/notes/mec/21EGDL25"
 element={
   <Notes
     title=""
@@ -227,7 +227,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18MAT31"
+path="/notes/notes/mec/18MAT31"
 element={
   <Notes
     title=""
@@ -246,7 +246,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME32"
+path="/notes/notes/mec/18ME32"
 element={
   <Notes
     title=""
@@ -265,7 +265,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME33"
+path="/notes/notes/mec/18ME33"
 element={
   <Notes
     title=""
@@ -284,7 +284,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME34"
+path="/notes/notes/mec/18ME34"
 element={
   <Notes
     title=""
@@ -303,7 +303,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME35"
+path="/notes/notes/mec/18ME35"
 element={
   <Notes
     title=""
@@ -322,7 +322,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME36"
+path="/notes/notes/mec/18ME36"
 element={
   <Notes
     title=""
@@ -341,7 +341,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18MAT41"
+path="/notes/notes/mec/18MAT41"
 element={
   <Notes
     title=""
@@ -360,7 +360,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME42"
+path="/notes/notes/mec/18ME42"
 element={
   <Notes
     title=""
@@ -379,7 +379,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME43"
+path="/notes/notes/mec/18ME43"
 element={
   <Notes
     title=""
@@ -398,7 +398,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME44"
+path="/notes/notes/mec/18ME44"
 element={
   <Notes
     title=""
@@ -417,7 +417,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME45"
+path="/notes/notes/mec/18ME45"
 element={
   <Notes
     title=""
@@ -436,7 +436,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME46"
+path="/notes/notes/mec/18ME46"
 element={
   <Notes
     title=""
@@ -455,7 +455,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME51"
+path="/notes/notes/mec/18ME51"
 element={
   <Notes
     title=""
@@ -474,7 +474,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME52"
+path="/notes/notes/mec/18ME52"
 element={
   <Notes
     title=""
@@ -493,7 +493,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME53"
+path="/notes/notes/mec/18ME53"
 element={
   <Notes
     title=""
@@ -512,7 +512,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME54"
+path="/notes/notes/mec/18ME54"
 element={
   <Notes
     title=""
@@ -531,7 +531,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME55"
+path="/notes/notes/mec/18ME55"
 element={
   <Notes
     title=""
@@ -550,7 +550,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME56"
+path="/notes/notes/mec/18ME56"
 element={
   <Notes
     title=""
@@ -569,7 +569,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME61"
+path="/notes/notes/mec/18ME61"
 element={
   <Notes
     title=""
@@ -588,7 +588,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME62"
+path="/notes/notes/mec/18ME62"
 element={
   <Notes
     title=""
@@ -607,7 +607,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME63"
+path="/notes/notes/mec/18ME63"
 element={
   <Notes
     title=""
@@ -626,7 +626,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME64"
+path="/notes/notes/mec/18ME64"
 element={
   <Notes
     title=""
@@ -645,7 +645,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME65"
+path="/notes/notes/mec/18ME65"
 element={
   <Notes
     title=""
@@ -664,7 +664,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME66"
+path="/notes/notes/mec/18ME66"
 element={
   <Notes
     title=""
@@ -683,7 +683,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME71"
+path="/notes/notes/mec/18ME71"
 element={
   <Notes
     title=""
@@ -702,7 +702,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME72"
+path="/notes/notes/mec/18ME72"
 element={
   <Notes
     title=""
@@ -721,7 +721,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME73"
+path="/notes/notes/mec/18ME73"
 element={
   <Notes
     title=""
@@ -740,7 +740,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME74"
+path="/notes/notes/mec/18ME74"
 element={
   <Notes
     title=""
@@ -759,7 +759,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME75"
+path="/notes/notes/mec/18ME75"
 element={
   <Notes
     title=""
@@ -778,7 +778,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME76"
+path="/notes/notes/mec/18ME76"
 element={
   <Notes
     title=""
@@ -797,7 +797,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME81"
+path="/notes/notes/mec/18ME81"
 element={
   <Notes
     title=""
@@ -816,7 +816,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME82"
+path="/notes/notes/mec/18ME82"
 element={
   <Notes
     title=""
@@ -835,7 +835,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME83"
+path="/notes/notes/mec/18ME83"
 element={
   <Notes
     title=""
@@ -854,7 +854,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME84"
+path="/notes/notes/mec/18ME84"
 element={
   <Notes
     title=""
@@ -873,7 +873,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME85"
+path="/notes/notes/mec/18ME85"
 element={
   <Notes
     title=""
@@ -892,7 +892,7 @@ element={
 }
 />
 <Route
-path="/notes/mec/18ME86"
+path="/notes/notes/mec/18ME86"
 element={
   <Notes
     title=""
@@ -912,9 +912,9 @@ element={
 />
 
  </Route>
- <Route path='/notes/eee' element={<Navbar3/>}>
+ <Route path='/notes/notes/eee' element={<Navbar3/>}>
  <Route
-          path="/notes/eee/21Mat11"
+          path="/notes/notes/eee/21Mat11"
           element={
             <Notes
               title="CALCULUS AND DIFFERENTIAL EQUATIONS"
@@ -933,7 +933,7 @@ element={
           }
         />
         <Route
-path="/notes/eee/21CHE12"
+path="/notes/notes/eee/21CHE12"
 element={
   <Notes
     title=""
@@ -952,7 +952,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/21CPS13"
+path="/notes/notes/eee/21CPS13"
 element={
   <Notes
     title=""
@@ -971,7 +971,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/21ELN14"
+path="/notes/notes/eee/21ELN14"
 element={
   <Notes
     title=""
@@ -990,7 +990,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/21ME15"
+path="/notes/notes/eee/21ME15"
 element={
   <Notes
     title=""
@@ -1009,7 +1009,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/21Mat21"
+path="/notes/notes/eee/21Mat21"
 element={
   <Notes
     title=""
@@ -1028,7 +1028,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/21PHY12"
+path="/notes/notes/eee/21PHY12"
 element={
   <Notes
     title=""
@@ -1047,7 +1047,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/21ELE13"
+path="/notes/notes/eee/21ELE13"
 element={
   <Notes
     title=""
@@ -1066,7 +1066,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/21CIV14"
+path="/notes/notes/eee/21CIV14"
 element={
   <Notes
     title=""
@@ -1085,7 +1085,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/21EGDL25"
+path="/notes/notes/eee/21EGDL25"
 element={
   <Notes
     title=""
@@ -1104,7 +1104,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18MAT31"
+path="/notes/notes/eee/18MAT31"
 element={
   <Notes
     title=""
@@ -1123,7 +1123,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE32"
+path="/notes/notes/eee/18EE32"
 element={
   <Notes
     title=""
@@ -1142,7 +1142,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE33"
+path="/notes/notes/eee/18EE33"
 element={
   <Notes
     title=""
@@ -1161,7 +1161,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE34"
+path="/notes/notes/eee/18EE34"
 element={
   <Notes
     title=""
@@ -1180,7 +1180,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE35"
+path="/notes/notes/eee/18EE35"
 element={
   <Notes
     title=""
@@ -1199,7 +1199,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE36"
+path="/notes/notes/eee/18EE36"
 element={
   <Notes
     title=""
@@ -1218,7 +1218,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18MAT41"
+path="/notes/notes/eee/18MAT41"
 element={
   <Notes
     title=""
@@ -1237,7 +1237,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE42"
+path="/notes/notes/eee/18EE42"
 element={
   <Notes
     title=""
@@ -1256,7 +1256,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE43"
+path="/notes/notes/eee/18EE43"
 element={
   <Notes
     title=""
@@ -1275,7 +1275,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE44"
+path="/notes/notes/eee/18EE44"
 element={
   <Notes
     title=""
@@ -1294,7 +1294,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE45"
+path="/notes/notes/eee/18EE45"
 element={
   <Notes
     title=""
@@ -1313,7 +1313,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE46"
+path="/notes/notes/eee/18EE46"
 element={
   <Notes
     title=""
@@ -1332,7 +1332,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE51"
+path="/notes/notes/eee/18EE51"
 element={
   <Notes
     title=""
@@ -1351,7 +1351,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE52"
+path="/notes/notes/eee/18EE52"
 element={
   <Notes
     title=""
@@ -1370,7 +1370,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE53"
+path="/notes/notes/eee/18EE53"
 element={
   <Notes
     title=""
@@ -1389,7 +1389,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE54"
+path="/notes/notes/eee/18EE54"
 element={
   <Notes
     title=""
@@ -1408,7 +1408,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE55"
+path="/notes/notes/eee/18EE55"
 element={
   <Notes
     title=""
@@ -1427,7 +1427,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE56"
+path="/notes/notes/eee/18EE56"
 element={
   <Notes
     title=""
@@ -1446,7 +1446,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE61"
+path="/notes/notes/eee/18EE61"
 element={
   <Notes
     title=""
@@ -1465,7 +1465,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE62"
+path="/notes/notes/eee/18EE62"
 element={
   <Notes
     title=""
@@ -1484,7 +1484,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE63"
+path="/notes/notes/eee/18EE63"
 element={
   <Notes
     title=""
@@ -1503,7 +1503,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE64"
+path="/notes/notes/eee/18EE64"
 element={
   <Notes
     title=""
@@ -1522,7 +1522,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE65"
+path="/notes/notes/eee/18EE65"
 element={
   <Notes
     title=""
@@ -1541,7 +1541,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE66"
+path="/notes/notes/eee/18EE66"
 element={
   <Notes
     title=""
@@ -1560,7 +1560,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE71"
+path="/notes/notes/eee/18EE71"
 element={
   <Notes
     title=""
@@ -1579,7 +1579,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE72"
+path="/notes/notes/eee/18EE72"
 element={
   <Notes
     title=""
@@ -1598,7 +1598,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE73"
+path="/notes/notes/eee/18EE73"
 element={
   <Notes
     title=""
@@ -1617,7 +1617,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE74"
+path="/notes/notes/eee/18EE74"
 element={
   <Notes
     title=""
@@ -1636,7 +1636,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE75"
+path="/notes/notes/eee/18EE75"
 element={
   <Notes
     title=""
@@ -1655,7 +1655,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE76"
+path="/notes/notes/eee/18EE76"
 element={
   <Notes
     title=""
@@ -1674,7 +1674,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE81"
+path="/notes/notes/eee/18EE81"
 element={
   <Notes
     title=""
@@ -1693,7 +1693,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE82"
+path="/notes/notes/eee/18EE82"
 element={
   <Notes
     title=""
@@ -1712,7 +1712,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE83"
+path="/notes/notes/eee/18EE83"
 element={
   <Notes
     title=""
@@ -1731,7 +1731,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE84"
+path="/notes/notes/eee/18EE84"
 element={
   <Notes
     title=""
@@ -1750,7 +1750,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE85"
+path="/notes/notes/eee/18EE85"
 element={
   <Notes
     title=""
@@ -1769,7 +1769,7 @@ element={
 }
 />
 <Route
-path="/notes/eee/18EE86"
+path="/notes/notes/eee/18EE86"
 element={
   <Notes
     title=""
@@ -1789,9 +1789,9 @@ element={
 />
 
  </Route>
- <Route path='/notes/ece' element={<Navbar2/>}>
+ <Route path='/notes/notes/ece' element={<Navbar2/>}>
  <Route
-          path="/notes/ece/21Mat11"
+          path="/notes/notes/ece/21Mat11"
           element={
             <Notes
               title="CALCULUS AND DIFFERENTIAL EQUATIONS"
@@ -1810,7 +1810,7 @@ element={
           }
         />
         <Route
-path="/notes/ece/21CHE12"
+path="/notes/notes/ece/21CHE12"
 element={
   <Notes
     title=""
@@ -1829,7 +1829,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/21CPS13"
+path="/notes/notes/ece/21CPS13"
 element={
   <Notes
     title=""
@@ -1848,7 +1848,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/21ELN14"
+path="/notes/notes/ece/21ELN14"
 element={
   <Notes
     title=""
@@ -1867,7 +1867,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/21ME15"
+path="/notes/notes/ece/21ME15"
 element={
   <Notes
     title=""
@@ -1886,7 +1886,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/21Mat21"
+path="/notes/notes/ece/21Mat21"
 element={
   <Notes
     title=""
@@ -1905,7 +1905,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/21PHY12"
+path="/notes/notes/ece/21PHY12"
 element={
   <Notes
     title=""
@@ -1924,7 +1924,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/21ELE13"
+path="/notes/notes/ece/21ELE13"
 element={
   <Notes
     title=""
@@ -1943,7 +1943,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/21CIV14"
+path="/notes/notes/ece/21CIV14"
 element={
   <Notes
     title=""
@@ -1962,7 +1962,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/21EGDL25"
+path="/notes/notes/ece/21EGDL25"
 element={
   <Notes
     title=""
@@ -1981,7 +1981,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18MAT31"
+path="/notes/notes/ece/18MAT31"
 element={
   <Notes
     title=""
@@ -2000,7 +2000,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC32"
+path="/notes/notes/ece/18EC32"
 element={
   <Notes
     title=""
@@ -2019,7 +2019,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC33"
+path="/notes/notes/ece/18EC33"
 element={
   <Notes
     title=""
@@ -2038,7 +2038,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC34"
+path="/notes/notes/ece/18EC34"
 element={
   <Notes
     title=""
@@ -2057,7 +2057,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC35"
+path="/notes/notes/ece/18EC35"
 element={
   <Notes
     title=""
@@ -2076,7 +2076,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC36"
+path="/notes/notes/ece/18EC36"
 element={
   <Notes
     title=""
@@ -2095,7 +2095,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18MAT41"
+path="/notes/notes/ece/18MAT41"
 element={
   <Notes
     title=""
@@ -2114,7 +2114,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC42"
+path="/notes/notes/ece/18EC42"
 element={
   <Notes
     title=""
@@ -2133,7 +2133,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC43"
+path="/notes/notes/ece/18EC43"
 element={
   <Notes
     title=""
@@ -2152,7 +2152,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC44"
+path="/notes/notes/ece/18EC44"
 element={
   <Notes
     title=""
@@ -2171,7 +2171,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC45"
+path="/notes/notes/ece/18EC45"
 element={
   <Notes
     title=""
@@ -2190,7 +2190,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC46"
+path="/notes/notes/ece/18EC46"
 element={
   <Notes
     title=""
@@ -2209,7 +2209,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC51"
+path="/notes/notes/ece/18EC51"
 element={
   <Notes
     title=""
@@ -2228,7 +2228,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC52"
+path="/notes/notes/ece/18EC52"
 element={
   <Notes
     title=""
@@ -2247,7 +2247,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC53"
+path="/notes/notes/ece/18EC53"
 element={
   <Notes
     title=""
@@ -2266,7 +2266,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC54"
+path="/notes/notes/ece/18EC54"
 element={
   <Notes
     title=""
@@ -2285,7 +2285,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC55"
+path="/notes/notes/ece/18EC55"
 element={
   <Notes
     title=""
@@ -2304,7 +2304,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC56"
+path="/notes/notes/ece/18EC56"
 element={
   <Notes
     title=""
@@ -2323,7 +2323,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC61"
+path="/notes/notes/ece/18EC61"
 element={
   <Notes
     title=""
@@ -2342,7 +2342,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC62"
+path="/notes/notes/ece/18EC62"
 element={
   <Notes
     title=""
@@ -2361,7 +2361,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC63"
+path="/notes/notes/ece/18EC63"
 element={
   <Notes
     title=""
@@ -2380,7 +2380,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC64"
+path="/notes/notes/ece/18EC64"
 element={
   <Notes
     title=""
@@ -2399,7 +2399,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC65"
+path="/notes/notes/ece/18EC65"
 element={
   <Notes
     title=""
@@ -2418,7 +2418,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC66"
+path="/notes/notes/ece/18EC66"
 element={
   <Notes
     title=""
@@ -2437,7 +2437,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC71"
+path="/notes/notes/ece/18EC71"
 element={
   <Notes
     title=""
@@ -2456,7 +2456,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC72"
+path="/notes/notes/ece/18EC72"
 element={
   <Notes
     title=""
@@ -2475,7 +2475,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC73"
+path="/notes/notes/ece/18EC73"
 element={
   <Notes
     title=""
@@ -2494,7 +2494,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC74"
+path="/notes/notes/ece/18EC74"
 element={
   <Notes
     title=""
@@ -2513,7 +2513,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC75"
+path="/notes/notes/ece/18EC75"
 element={
   <Notes
     title=""
@@ -2532,7 +2532,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC76"
+path="/notes/notes/ece/18EC76"
 element={
   <Notes
     title=""
@@ -2551,7 +2551,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC81"
+path="/notes/notes/ece/18EC81"
 element={
   <Notes
     title=""
@@ -2570,7 +2570,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC82"
+path="/notes/notes/ece/18EC82"
 element={
   <Notes
     title=""
@@ -2589,7 +2589,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC83"
+path="/notes/notes/ece/18EC83"
 element={
   <Notes
     title=""
@@ -2608,7 +2608,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC84"
+path="/notes/notes/ece/18EC84"
 element={
   <Notes
     title=""
@@ -2627,7 +2627,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC85"
+path="/notes/notes/ece/18EC85"
 element={
   <Notes
     title=""
@@ -2646,7 +2646,7 @@ element={
 }
 />
 <Route
-path="/notes/ece/18EC86"
+path="/notes/notes/ece/18EC86"
 element={
   <Notes
     title=""
@@ -2666,9 +2666,9 @@ element={
 />
 
  </Route>
- <Route path="/notes/cse" element={<Navbar/>} >
+ <Route path="/notes/notes/cse" element={<Navbar/>} >
  <Route
-          path="/notes/cse/21Mat11"
+          path="/notes/notes/cse/21Mat11"
           element={
             <Notes
               title="CALCULUS AND DIFFERENTIAL EQUATIONS"
@@ -2687,7 +2687,7 @@ element={
           }
         />
         <Route
-path="/notes/cse/21CHE12"
+path="/notes/notes/cse/21CHE12"
 element={
   <Notes
     title=""
@@ -2706,7 +2706,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/21CPS13"
+path="/notes/notes/cse/21CPS13"
 element={
   <Notes
     title=""
@@ -2725,7 +2725,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/21ELN14"
+path="/notes/notes/cse/21ELN14"
 element={
   <Notes
     title=""
@@ -2744,7 +2744,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/21ME15"
+path="/notes/notes/cse/21ME15"
 element={
   <Notes
     title=""
@@ -2763,7 +2763,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/21Mat21"
+path="/notes/notes/cse/21Mat21"
 element={
   <Notes
     title=""
@@ -2782,7 +2782,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/21PHY12"
+path="/notes/notes/cse/21PHY12"
 element={
   <Notes
     title=""
@@ -2801,7 +2801,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/21ELE13"
+path="/notes/notes/cse/21ELE13"
 element={
   <Notes
     title=""
@@ -2820,7 +2820,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/21CIV14"
+path="/notes/notes/cse/21CIV14"
 element={
   <Notes
     title=""
@@ -2839,7 +2839,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/21EGDL25"
+path="/notes/notes/cse/21EGDL25"
 element={
   <Notes
     title=""
@@ -2858,7 +2858,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18MAT31"
+path="/notes/notes/cse/18MAT31"
 element={
   <Notes
     title=""
@@ -2877,7 +2877,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS32"
+path="/notes/notes/cse/18CS32"
 element={
   <Notes
     title=""
@@ -2896,7 +2896,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS33"
+path="/notes/notes/cse/18CS33"
 element={
   <Notes
     title=""
@@ -2915,7 +2915,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS34"
+path="/notes/notes/cse/18CS34"
 element={
   <Notes
     title=""
@@ -2934,7 +2934,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS35"
+path="/notes/notes/cse/18CS35"
 element={
   <Notes
     title=""
@@ -2953,7 +2953,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS36"
+path="/notes/notes/cse/18CS36"
 element={
   <Notes
     title=""
@@ -2972,7 +2972,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18MAT41"
+path="/notes/notes/cse/18MAT41"
 element={
   <Notes
     title=""
@@ -2991,7 +2991,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS42"
+path="/notes/notes/cse/18CS42"
 element={
   <Notes
     title=""
@@ -3010,7 +3010,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS43"
+path="/notes/notes/cse/18CS43"
 element={
   <Notes
     title=""
@@ -3029,7 +3029,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS44"
+path="/notes/notes/cse/18CS44"
 element={
   <Notes
     title=""
@@ -3048,7 +3048,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS45"
+path="/notes/notes/cse/18CS45"
 element={
   <Notes
     title=""
@@ -3067,7 +3067,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS46"
+path="/notes/notes/cse/18CS46"
 element={
   <Notes
     title=""
@@ -3086,7 +3086,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS51"
+path="/notes/notes/cse/18CS51"
 element={
   <Notes
     title=""
@@ -3105,7 +3105,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS52"
+path="/notes/notes/cse/18CS52"
 element={
   <Notes
     title=""
@@ -3124,7 +3124,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS53"
+path="/notes/notes/cse/18CS53"
 element={
   <Notes
     title=""
@@ -3143,7 +3143,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS54"
+path="/notes/notes/cse/18CS54"
 element={
   <Notes
     title=""
@@ -3162,7 +3162,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS55"
+path="/notes/notes/cse/18CS55"
 element={
   <Notes
     title=""
@@ -3181,7 +3181,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS56"
+path="/notes/notes/cse/18CS56"
 element={
   <Notes
     title=""
@@ -3200,7 +3200,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS61"
+path="/notes/notes/cse/18CS61"
 element={
   <Notes
     title=""
@@ -3219,7 +3219,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS62"
+path="/notes/notes/cse/18CS62"
 element={
   <Notes
     title=""
@@ -3238,7 +3238,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS63"
+path="/notes/notes/cse/18CS63"
 element={
   <Notes
     title=""
@@ -3257,7 +3257,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS64"
+path="/notes/notes/cse/18CS64"
 element={
   <Notes
     title=""
@@ -3276,7 +3276,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS65"
+path="/notes/notes/cse/18CS65"
 element={
   <Notes
     title=""
@@ -3295,7 +3295,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS66"
+path="/notes/notes/cse/18CS66"
 element={
   <Notes
     title=""
@@ -3314,7 +3314,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS71"
+path="/notes/notes/cse/18CS71"
 element={
   <Notes
     title=""
@@ -3333,7 +3333,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS72"
+path="/notes/notes/cse/18CS72"
 element={
   <Notes
     title=""
@@ -3352,7 +3352,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS73"
+path="/notes/notes/cse/18CS73"
 element={
   <Notes
     title=""
@@ -3371,7 +3371,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS74"
+path="/notes/notes/cse/18CS74"
 element={
   <Notes
     title=""
@@ -3390,7 +3390,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS75"
+path="/notes/notes/cse/18CS75"
 element={
   <Notes
     title=""
@@ -3409,7 +3409,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS76"
+path="/notes/notes/cse/18CS76"
 element={
   <Notes
     title=""
@@ -3428,7 +3428,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS81"
+path="/notes/notes/cse/18CS81"
 element={
   <Notes
     title=""
@@ -3447,7 +3447,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS82"
+path="/notes/notes/cse/18CS82"
 element={
   <Notes
     title=""
@@ -3466,7 +3466,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS83"
+path="/notes/notes/cse/18CS83"
 element={
   <Notes
     title=""
@@ -3485,7 +3485,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS84"
+path="/notes/notes/cse/18CS84"
 element={
   <Notes
     title=""
@@ -3504,7 +3504,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS85"
+path="/notes/notes/cse/18CS85"
 element={
   <Notes
     title=""
@@ -3523,7 +3523,7 @@ element={
 }
 />
 <Route
-path="/notes/cse/18CS86"
+path="/notes/notes/cse/18CS86"
 element={
   <Notes
     title=""
@@ -3588,16 +3588,16 @@ return (
         <CustomClose onClick={()=>setburgerStatus(false)}/> 
 
          </CloseWrapper>
-        <Link to="/notes/cse" className='sub'><button className='ui'> COMPUTER SCIENCE AND ENGINEERING
+        <Link to="/notes/notes/cse" className='sub'><button className='ui'> COMPUTER SCIENCE AND ENGINEERING
   
 </button></Link><hr />
-        <Link to="/notes/ece" className='sub'><button className='ui'> ELECTRONICS AND COMMUNICATION ENGINEERING
+        <Link to="/notes/notes/ece" className='sub'><button className='ui'> ELECTRONICS AND COMMUNICATION ENGINEERING
   
 </button></Link><hr />
-        <Link to="/notes/eee" className='sub'><button className='ui'> ELECTRICAL AND ELECTRONICS ENGINEERGING
+        <Link to="/notes/notes/eee" className='sub'><button className='ui'> ELECTRICAL AND ELECTRONICS ENGINEERGING
   
 </button></Link><hr />
-        <Link to="/notes/mec" className='sub'><button className='ui'> MECHANICAL ENGINEERING
+        <Link to="/notes/notes/mec" className='sub'><button className='ui'> MECHANICAL ENGINEERING
   
 </button></Link><hr />
         
@@ -3637,28 +3637,28 @@ function Navbar() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/21Mat11">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/21Mat11">
               21Mat11
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/21CHE12">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/21CHE12">
               21che12
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/21CPS13">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/21CPS13">
               21cps13
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/21ELN14">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/21ELN14">
               21ELN14
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/21ME15">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/21ME15">
               21ME15
             </Link>
           </li>
@@ -3676,28 +3676,28 @@ function Navbar() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/21Mat21">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/21Mat21">
               21Mat21
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/21PHY12">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/21PHY12">
               21PHY12
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/21ELE13">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/21ELE13">
               21ELE13
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/21CIV14">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/21CIV14">
               21CIV14
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/21EGDL25">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/21EGDL25">
               21EGDL25
             </Link>
           </li>
@@ -3714,34 +3714,34 @@ function Navbar() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18MAT31">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18MAT31">
               18MAT31
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS32">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS32">
               18CS32
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS33">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS33">
               18CS33
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS34">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS34">
               18CS34
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS35">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS35">
               18CS35
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS36">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS36">
               18CS36
             </Link>
           </li>
@@ -3758,34 +3758,34 @@ function Navbar() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18MAT41">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18MAT41">
               18MAT41
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS42">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS42">
               18CS42
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS43">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS43">
               18CS43
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS44">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS44">
               18CS44
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS45">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS45">
               18CS45
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS46">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS46">
               18CS46
             </Link>
           </li>
@@ -3802,34 +3802,34 @@ function Navbar() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS51">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS51">
               18CS51
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS52">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS52">
               18CS52
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS53">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS53">
               18CS53
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS54">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS54">
               18CS54
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS55">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS55">
               18CS55
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS56">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS56">
               18CS56
             </Link>
           </li>
@@ -3846,34 +3846,34 @@ function Navbar() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS61">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS61">
               18CS61
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS62">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS62">
               18CS62
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS63">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS63">
               18CS63
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS64">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS64">
               18CS64
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS65">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS65">
               18CS65
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS66">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS66">
               18CS66
             </Link>
           </li>
@@ -3890,34 +3890,34 @@ function Navbar() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS71">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS71">
               18CS71
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS72">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS72">
               18CS72
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS73">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS73">
               18CS73
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS74">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS74">
               18CS74
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS75">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS75">
               18CS75
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS76">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS76">
               18CS76
             </Link>
           </li>
@@ -3934,34 +3934,34 @@ function Navbar() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS81">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS81">
               18CS81
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS82">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS82">
               18CS82
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS83">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS83">
               18CS83
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS84">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS84">
               18CS84
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS85">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS85">
               18CS85
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/cse/18CS86">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/cse/18CS86">
               18CS86
             </Link>
           </li>
@@ -3995,28 +3995,28 @@ function Navbar2() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/21Mat11">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/21Mat11">
               21Mat11
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/21CHE12">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/21CHE12">
               21che12
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/21CPS13">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/21CPS13">
               21cps13
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/21ELN14">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/21ELN14">
               21ELN14
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/21ME15">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/21ME15">
               21ME15
             </Link>
           </li>
@@ -4034,28 +4034,28 @@ function Navbar2() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/21Mat21">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/21Mat21">
               21Mat21
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/21PHY12">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/21PHY12">
               21PHY12
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/21ELE13">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/21ELE13">
               21ELE13
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/21CIV14">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/21CIV14">
               21CIV14
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/21EGDL25">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/21EGDL25">
               21EGDL25
             </Link>
           </li>
@@ -4072,34 +4072,34 @@ function Navbar2() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18MAT31">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18MAT31">
               18MAT31
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC32">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC32">
               18EC32
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC33">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC33">
               18EC33
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC34">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC34">
               18EC34
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC35">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC35">
               18EC35
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC36">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC36">
               18EC36
             </Link>
           </li>
@@ -4116,34 +4116,34 @@ function Navbar2() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18MAT41">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18MAT41">
               18MAT41
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC42">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC42">
               18EC42
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC43">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC43">
               18EC43
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC44">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC44">
               18EC44
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC45">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC45">
               18EC45
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC46">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC46">
               18EC46
             </Link>
           </li>
@@ -4160,34 +4160,34 @@ function Navbar2() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC51">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC51">
               18EC51
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC52">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC52">
               18EC52
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC53">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC53">
               18EC53
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC54">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC54">
               18EC54
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC55">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC55">
               18EC55
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC56">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC56">
               18EC56
             </Link>
           </li>
@@ -4204,34 +4204,34 @@ function Navbar2() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC61">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC61">
               18EC61
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC62">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC62">
               18EC62
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC63">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC63">
               18EC63
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC64">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC64">
               18EC64
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC65">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC65">
               18EC65
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC66">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC66">
               18EC66
             </Link>
           </li>
@@ -4248,34 +4248,34 @@ function Navbar2() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC71">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC71">
               18EC71
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC72">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC72">
               18EC72
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC73">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC73">
               18EC73
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC74">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC74">
               18EC74
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC75">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC75">
               18EC75
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC76">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC76">
               18EC76
             </Link>
           </li>
@@ -4292,34 +4292,34 @@ function Navbar2() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC81">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC81">
               18EC81
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC82">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC82">
               18EC82
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC83">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC83">
               18EC83
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC84">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC84">
               18EC84
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC85">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC85">
               18EC85
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/ece/18EC86">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/ece/18EC86">
               18EC86
             </Link>
           </li>
@@ -4353,28 +4353,28 @@ function Navbar3() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/21Mat11">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/21Mat11">
               21Mat11
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/21CHE12">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/21CHE12">
               21che12
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/21CPS13">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/21CPS13">
               21cps13
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/21ELN14">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/21ELN14">
               21ELN14
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/21ME15">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/21ME15">
               21ME15
             </Link>
           </li>
@@ -4392,28 +4392,28 @@ function Navbar3() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/21Mat21">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/21Mat21">
               21Mat21
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/21PHY12">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/21PHY12">
               21PHY12
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/21ELE13">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/21ELE13">
               21ELE13
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/21CIV14">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/21CIV14">
               21CIV14
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/21EGDL25">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/21EGDL25">
               21EGDL25
             </Link>
           </li>
@@ -4430,34 +4430,34 @@ function Navbar3() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18MAT31">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18MAT31">
               18MAT31
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE32">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE32">
               18EE32
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE33">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE33">
               18EE33
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE34">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE34">
               18EE34
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE35">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE35">
               18EE35
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE36">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE36">
               18EE36
             </Link>
           </li>
@@ -4474,34 +4474,34 @@ function Navbar3() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18MAT41">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18MAT41">
               18MAT41
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE42">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE42">
               18EE42
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE43">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE43">
               18EE43
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE44">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE44">
               18EE44
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE45">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE45">
               18EE45
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE46">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE46">
               18EE46
             </Link>
           </li>
@@ -4518,34 +4518,34 @@ function Navbar3() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE51">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE51">
               18EE51
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE52">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE52">
               18EE52
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE53">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE53">
               18EE53
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE54">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE54">
               18EE54
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE55">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE55">
               18EE55
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE56">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE56">
               18EE56
             </Link>
           </li>
@@ -4562,34 +4562,34 @@ function Navbar3() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE61">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE61">
               18EE61
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE62">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE62">
               18EE62
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE63">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE63">
               18EE63
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE64">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE64">
               18EE64
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE65">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE65">
               18EE65
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE66">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE66">
               18EE66
             </Link>
           </li>
@@ -4606,34 +4606,34 @@ function Navbar3() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE71">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE71">
               18EE71
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE72">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE72">
               18EE72
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE73">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE73">
               18EE73
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE74">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE74">
               18EE74
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE75">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE75">
               18EE75
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE76">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE76">
               18EE76
             </Link>
           </li>
@@ -4650,34 +4650,34 @@ function Navbar3() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE81">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE81">
               18EE81
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE82">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE82">
               18EE82
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE83">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE83">
               18EE83
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE84">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE84">
               18EE84
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE85">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE85">
               18EE85
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/eee/18EE86">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/eee/18EE86">
               18EE86
             </Link>
           </li>
@@ -4711,28 +4711,28 @@ function Navbar4() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/21Mat11">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/21Mat11">
               21Mat11
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/21CHE12">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/21CHE12">
               21che12
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/21CPS13">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/21CPS13">
               21cps13
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/21ELN14">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/21ELN14">
               21ELN14
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/21ME15">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/21ME15">
               21ME15
             </Link>
           </li>
@@ -4750,28 +4750,28 @@ function Navbar4() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/21Mat21">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/21Mat21">
               21Mat21
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/21PHY12">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/21PHY12">
               21PHY12
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/21ELE13">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/21ELE13">
               21ELE13
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/21CIV14">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/21CIV14">
               21CIV14
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/21EGDL25">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/21EGDL25">
               21EGDL25
             </Link>
           </li>
@@ -4788,34 +4788,34 @@ function Navbar4() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18MAT31">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18MAT31">
               18MAT31
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME32">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME32">
               18ME32
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME33">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME33">
               18ME33
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME34">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME34">
               18ME34
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME35">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME35">
               18ME35
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME36">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME36">
               18ME36
             </Link>
           </li>
@@ -4832,34 +4832,34 @@ function Navbar4() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18MAT41">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18MAT41">
               18MAT41
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME42">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME42">
               18ME42
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME43">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME43">
               18ME43
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME44">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME44">
               18ME44
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME45">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME45">
               18ME45
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME46">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME46">
               18ME46
             </Link>
           </li>
@@ -4876,34 +4876,34 @@ function Navbar4() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME51">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME51">
               18ME51
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME52">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME52">
               18ME52
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME53">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME53">
               18ME53
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME54">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME54">
               18ME54
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME55">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME55">
               18ME55
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME56">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME56">
               18ME56
             </Link>
           </li>
@@ -4920,34 +4920,34 @@ function Navbar4() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME61">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME61">
               18ME61
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME62">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME62">
               18ME62
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME63">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME63">
               18ME63
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME64">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME64">
               18ME64
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME65">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME65">
               18ME65
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME66">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME66">
               18ME66
             </Link>
           </li>
@@ -4964,34 +4964,34 @@ function Navbar4() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME71">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME71">
               18ME71
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME72">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME72">
               18ME72
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME73">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME73">
               18ME73
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME74">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME74">
               18ME74
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME75">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME75">
               18ME75
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME76">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME76">
               18ME76
             </Link>
           </li>
@@ -5008,34 +5008,34 @@ function Navbar4() {
         </Link>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME81">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME81">
               18ME81
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME82">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME82">
               18ME82
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME83">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME83">
               18ME83
             </Link>
           </li>
           <li>
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME84">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME84">
               18ME84
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME85">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME85">
               18ME85
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="btn btn-primary mx-5 my-1" to="/notes/mec/18ME86">
+            <Link className="btn btn-primary mx-5 my-1" to="/notes/notes/mec/18ME86">
               18ME86
             </Link>
           </li>
