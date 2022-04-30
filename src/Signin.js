@@ -20,7 +20,7 @@ function Signin() {
     
     console.log(response.user);
     
-    window.location.href="/notes";
+    window.location.href="/notes/notes";
     
     
   })
