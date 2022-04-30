@@ -16,6 +16,9 @@ import {
   Link,
   Outlet,
 } from "react-router-dom";
+import Signin from './Signin';
+import Signup from './Signup';
+import Lr from './Lr';
 
 
 
@@ -23,8 +26,14 @@ import {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
+ 
+<Routes>
+  <Route path='/' element={<Lr/>}/>
+</Routes>
  <Routes>
+ 
  <Route path="/notes" element={<Header />} >
+ 
  <Route path='/notes' element={<Logo/>}/>
  <Route path='/notes/mec' element={<Navbar4/>}>
  <Route
